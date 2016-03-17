@@ -1,0 +1,40 @@
+header {
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+	width: 100%;
+	h1 {
+	font-family: "Bebas", sans-serif;
+	color: $coral;
+
+	span {
+		color: $rosa;
+		}
+	}
+	.navbar-toggle {
+		margin-top: 10px;
+    	margin-right: 0;
+		.icon-bar {	
+			width: 25px;
+    		height: 3px;
+			background-color: $rosa;
+		}
+	}
+	ul {
+		padding-top: 10px;
+	}
+	li {
+		text-transform: uppercase;
+		font-family: 'Bebas';
+		font-size: 16px;
+		a {
+			color: $gris;
+			&:hover {
+				color: $coral;
+			}
+			&.active {
+				color: $coral;
+			}
+		}
+	}
+}

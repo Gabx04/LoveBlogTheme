@@ -1,2 +1,6 @@
-@include font-face(Bebas, font/bebas___-webfont);
-@include font-face(HelveticaNeue, font/HelveticaNeue);
+@font-face {
+  font-family: 'Bebas';
+  src: url("../font/bebas___-webfont.eot?") format("eot"), url("../font/bebas___-webfont.woff") format("woff"), url("../font/bebas___-webfont.ttf") format("truetype"), url("../font/bebas___-webfont.svg#Bebas") format("svg"); }
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../font/HelveticaNeue.eot?") format("eot"), url("../font/HelveticaNeue.woff") format("woff"), url("../font/HelveticaNeue.ttf") format("truetype"); }

@@ -1,0 +1,21 @@
+.footer_area {
+	background-color: $rosaoscuro;
+	#footer {
+		background-color: $coral;
+		color: #FFF;
+		border-left: 10px solid #FFF;
+		border-right: 10px solid #FFF;
+		padding: 20px 10px;
+		.single_footer {
+			padding-right: 100px;
+
+		}
+	}
+	h2 {
+		font-family: 'Bebas';
+		font-size: 24px;
+	}
+	p {
+		font-family: sans-serif;
+	}
+}
