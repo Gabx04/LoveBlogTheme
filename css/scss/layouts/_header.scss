@@ -1,4 +1,4 @@
-header {
+.header_area {
 	position: fixed;
 	z-index: 100;
 	background-color: white;
@@ -37,4 +37,11 @@ header {
 			}
 		}
 	}
+}
+
+.header_bottom_area {
+	background-color: $rosaoscuro;
+	height: 100px;
+	width: 100%;
+	z-index: 99;
 }
